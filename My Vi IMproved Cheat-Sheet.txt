@@ -13,8 +13,12 @@ $   move to end of line
 Do you like to set marks ?
 
 mx  -   Set mark x at the current cursor position. 
-
 'x  -    Jump to the beginning of the line of mark x. 
+
+
+For BRACKETS
+
+%  -  To jump to a matching opening or closing parenthesis
 
 
 e  - Move to the end of a word  and  w - Move forward to the beginning of a word. 
@@ -65,3 +69,6 @@ PRO Features:
     :tabclose - To close a single tab: 
     
     :tabonly - to close all other tabs except the current one: 
+
+
+http://vim.wikia.com/wiki/List_changes_to_the_current_file
