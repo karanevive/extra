@@ -1,1 +1,48 @@
 
+
+gg -  move to first line
+G  -  move to last line
+
+0   move to beginning of line
+$   move to end of line
+
+h   move one character left
+j   move one row down
+k   move one row up
+l   move one character right
+
+H   move to top of screen
+M   move to middle of screen
+L   move to bottom of screen
+
+if are finding something:
+
+n   next matching search pattern
+N   previous matching search pattern
+
+
+
+PRO Features:
+
+1. TABS Feature
+
+    $ vim file1
+    After opening the file, type <b>:tabedit file2</b> in Escape mode
+    <b>:tabedit file3</b>
+    
+    gt - next tab
+    gT - previous tab
+    
+    {i}gt - ith tab  (2gt - 2nd tab)
+    
+    :tabfirst - first tab
+    :tablast - last tab
+    
+    :tabn for next tab and :tabp for previous tab
+    
+    list all the open tabs using : :tabs
+    
+    $ vim -p source.c source.h - open multiple files at once
+    :tabclose - To close a single tab: 
+    
+    :tabonly - to close all other tabs except the current one: 
