@@ -1,21 +1,40 @@
 
 
-gg -  move to first line
-G  -  move to last line
+gg -  move to first line of file
+G  -  move to last line of file
 
+50G - Jump to line 50.
+    
 0   move to beginning of line
+^   move to first non-blank character of the line.
 $   move to end of line
 
+
+Do you like to set marks ?
+
+mx  -   Set mark x at the current cursor position. 
+
+'x  -    Jump to the beginning of the line of mark x. 
+
+
+e  - Move to the end of a word  and  w - Move forward to the beginning of a word. 
+b  - Move backward to the beginning of a word. 
+3b - Move backward three words. 
+3w - Move forward three words
+    
+    
+H   move to top of screen
+M   move to middle of screen
+L   move to bottom of screen
+
+*** If you feel arrow keys are too far. :(
 h   move one character left
 j   move one row down
 k   move one row up
 l   move one character right
 
-H   move to top of screen
-M   move to middle of screen
-L   move to bottom of screen
 
-if are finding something:
+***if you are FINDING something:
 
 n   next matching search pattern
 N   previous matching search pattern
