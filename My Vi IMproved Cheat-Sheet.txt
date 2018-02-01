@@ -75,6 +75,6 @@ PRO Features:
 
 2.  :%!python -m json.tool
     # for formatting the JSON file
-    
+    (Better way - http://visibletrap.blogspot.in/2010/05/vim-how-to-format-and-syntax-highlight.html)
     
 http://vim.wikia.com/wiki/List_changes_to_the_current_file
