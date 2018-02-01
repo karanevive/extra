@@ -71,4 +71,10 @@ PRO Features:
     :tabonly - to close all other tabs except the current one: 
 
 
+
+
+2.  :%!python -m json.tool
+    # for formatting the JSON file
+    
+    
 http://vim.wikia.com/wiki/List_changes_to_the_current_file
